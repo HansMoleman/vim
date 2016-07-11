@@ -1,9 +1,10 @@
 set clipboard=unnamed
 set bs=2
 
+"this is broken and needs to be fixed
 "show trailing whitespace
-autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
-au InsertLeave * match ExtraWhitespace /\s\+$/
+"autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
+"au InsertLeave * match ExtraWhitespace /\s\+$/
 
 "Color scheme
 set t_Co=256
@@ -29,7 +30,7 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set shiftround
-set smartindent
+set autoindent
 set expandtab
 
 "maps spacebar to folds
