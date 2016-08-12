@@ -1,9 +1,10 @@
 set clipboard=unnamed
 set bs=2
 
+"this is broken and needs to be fixed
 "show trailing whitespace
-autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
-au InsertLeave * match ExtraWhitespace /\s\+$/
+"autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
+"au InsertLeave * match ExtraWhitespace /\s\+$/
 
 "Color scheme
 set t_Co=256
