@@ -29,7 +29,7 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set shiftround
-set smartindent
+set autoindent
 set expandtab
 
 "maps spacebar to folds
